@@ -392,9 +392,10 @@ rouge_l = rouge.compute(
     references=[list(refs) for refs in references],
     use_aggregator=True,
 )["rougeL"] * 100
+
 meteor = meteor_metric.compute(
     predictions=predictions,
-    references=[refs[0] for refs in references],
+    references=list(references)
 )["meteor"] * 100
 
 tok_preds = [pred.split() for pred in predictions]
