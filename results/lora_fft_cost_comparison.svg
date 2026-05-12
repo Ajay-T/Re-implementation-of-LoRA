@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1930" viewBox="0 0 1800 1930">
+<rect x="0.0" y="0.0" width="1800.0" height="1930.0" rx="0.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="88.0" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="850" fill="#172026" text-anchor="start" >LoRA vs. Full Fine-Tuning Results</text>
+<text x="80.0" y="140.0" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="400" fill="#65737e" text-anchor="start" >Gray bars are full fine-tuning baselines. Teal bars are LoRA for the same model/task run.</text>
+<rect x="80.0" y="190.0" width="1640.0" height="535.0" rx="10.0" fill="#ffffff" stroke="#d8ded9"/>
+<text x="112.0" y="248.0" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" fill="#172026" text-anchor="start" >Trainable Parameters</text>
+<text x="378.0" y="290.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#65737e" text-anchor="middle" >0%</text>
+<text x="1658.0" y="290.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#65737e" text-anchor="middle" >FFT = 100%</text>
+<line x1="378.0" y1="296.0" x2="1658.0" y2="296.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="112.0" y="341.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >SST-2 / RoBERTa</text>
+<rect x="378.0" y="316.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="316.0" width="9.1" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="378.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 124.6M</text>
+<text x="596.0" y="378.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 887K (0.7% of FFT)</text>
+<text x="112.0" y="417.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >MNLI / RoBERTa</text>
+<rect x="378.0" y="392.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="392.0" width="9.1" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="454.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 124.6M</text>
+<text x="596.0" y="454.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 888K (0.7% of FFT)</text>
+<text x="112.0" y="493.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >CIFAR-10 / ViT</text>
+<rect x="378.0" y="468.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="468.0" width="4.5" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="530.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 85.8M</text>
+<text x="596.0" y="530.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 303K (0.4% of FFT)</text>
+<text x="112.0" y="569.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >E2E / GPT-2 S</text>
+<rect x="378.0" y="544.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="544.0" width="3.0" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="606.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 124.4M</text>
+<text x="596.0" y="606.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 147K (0.1% of FFT)</text>
+<text x="112.0" y="645.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >E2E / GPT-2 M</text>
+<rect x="378.0" y="620.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="620.0" width="4.0" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="682.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 124.4M</text>
+<text x="596.0" y="682.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 393K (0.3% of FFT)</text>
+<rect x="80.0" y="781.0" width="1640.0" height="535.0" rx="10.0" fill="#ffffff" stroke="#d8ded9"/>
+<text x="112.0" y="839.0" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" fill="#172026" text-anchor="start" >Peak VRAM</text>
+<text x="378.0" y="881.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#65737e" text-anchor="middle" >0%</text>
+<text x="1658.0" y="881.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#65737e" text-anchor="middle" >FFT = 100%</text>
+<line x1="378.0" y1="887.0" x2="1658.0" y2="887.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="112.0" y="932.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >SST-2 / RoBERTa</text>
+<rect x="378.0" y="907.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="907.0" width="679.0" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="969.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 2.4GB</text>
+<text x="596.0" y="969.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 1.3GB (53.0% of FFT)</text>
+<text x="112.0" y="1008.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >MNLI / RoBERTa</text>
+<rect x="378.0" y="983.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="983.0" width="114.7" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1045.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 14.4GB</text>
+<text x="596.0" y="1045.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 1.3GB (9.0% of FFT)</text>
+<text x="112.0" y="1084.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >CIFAR-10 / ViT</text>
+<rect x="378.0" y="1059.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1059.0" width="834.5" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1121.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 3.4GB</text>
+<text x="596.0" y="1121.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 2.2GB (65.2% of FFT)</text>
+<text x="112.0" y="1160.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >E2E / GPT-2 S</text>
+<rect x="378.0" y="1135.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1135.0" width="598.5" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1197.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 7.6GB</text>
+<text x="596.0" y="1197.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 3.5GB (46.8% of FFT)</text>
+<text x="112.0" y="1236.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >E2E / GPT-2 M</text>
+<rect x="378.0" y="1211.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1211.0" width="650.3" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1273.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 7.0GB</text>
+<text x="596.0" y="1273.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 3.5GB (50.8% of FFT)</text>
+<rect x="80.0" y="1372.0" width="1640.0" height="535.0" rx="10.0" fill="#ffffff" stroke="#d8ded9"/>
+<text x="112.0" y="1430.0" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" fill="#172026" text-anchor="start" >Average Epoch Time</text>
+<text x="378.0" y="1472.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#65737e" text-anchor="middle" >0%</text>
+<text x="1658.0" y="1472.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#65737e" text-anchor="middle" >FFT = 100%</text>
+<line x1="378.0" y1="1478.0" x2="1658.0" y2="1478.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="112.0" y="1523.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >SST-2 / RoBERTa</text>
+<rect x="378.0" y="1498.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1498.0" width="1110.5" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1560.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 3.4m</text>
+<text x="596.0" y="1560.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 3.0m (86.8% of FFT)</text>
+<text x="112.0" y="1599.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >MNLI / RoBERTa</text>
+<rect x="378.0" y="1574.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1574.0" width="252.1" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1636.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 1.4h</text>
+<text x="596.0" y="1636.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 16.7m (19.7% of FFT)</text>
+<text x="112.0" y="1675.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >CIFAR-10 / ViT</text>
+<rect x="378.0" y="1650.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1650.0" width="986.8" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1712.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 8.1m</text>
+<text x="596.0" y="1712.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 6.2m (77.1% of FFT)</text>
+<text x="112.0" y="1751.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >E2E / GPT-2 S</text>
+<rect x="378.0" y="1726.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1726.0" width="111.9" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1788.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 19.0m</text>
+<text x="596.0" y="1788.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 1.7m (8.7% of FFT)</text>
+<text x="112.0" y="1827.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750" fill="#172026" text-anchor="start" >E2E / GPT-2 M</text>
+<rect x="378.0" y="1802.0" width="1280.0" height="28.0" rx="14.0" fill="#d5d8dc" stroke="none"/>
+<rect x="378.0" y="1802.0" width="823.6" height="28.0" rx="14.0" fill="#0f766e" stroke="none"/>
+<text x="378.0" y="1864.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#65737e" text-anchor="start" >FFT 2.2h</text>
+<text x="596.0" y="1864.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0b514c" text-anchor="start" >LoRA 1.4h (64.3% of FFT)</text>
+</svg>

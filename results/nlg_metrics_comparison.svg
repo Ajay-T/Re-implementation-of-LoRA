@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+<rect width="900" height="340" fill="#fbfbf8"/>
+<text x="450.0" y="28.0" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="850" fill="#172026" text-anchor="middle" >NLG Metrics: Full Fine-Tune vs. LoRA (E2E Dataset)</text>
+<rect x="20" y="46" width="420" height="280" rx="8" fill="#ffffff" stroke="#d8ded9"/>
+<text x="36.0" y="72.0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#172026" text-anchor="start" >GPT-2 Small</text>
+<rect x="103.8" y="162.4" width="20.5" height="147.6" rx="3" fill="#9ca3af"/>
+<rect x="128.2" y="164.3" width="20.5" height="145.7" rx="3" fill="#0f766e"/>
+<text x="114.1" y="158.4" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >53.68</text>
+<text x="138.4" y="160.3" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >52.98</text>
+<text x="132.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >BLEU</text>
+<rect x="167.8" y="293.4" width="20.5" height="16.6" rx="3" fill="#9ca3af"/>
+<rect x="192.2" y="301.5" width="20.5" height="8.5" rx="3" fill="#0f766e"/>
+<text x="178.1" y="289.4" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >6.0225</text>
+<text x="202.4" y="297.5" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >3.1081</text>
+<text x="196.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >NIST</text>
+<rect x="231.8" y="118.7" width="20.5" height="191.3" rx="3" fill="#9ca3af"/>
+<rect x="256.2" y="175.3" width="20.5" height="134.7" rx="3" fill="#0f766e"/>
+<text x="242.1" y="114.7" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >69.58</text>
+<text x="266.4" y="171.3" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >48.99</text>
+<text x="260.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >METEOR</text>
+<rect x="295.8" y="138.0" width="20.5" height="172.0" rx="3" fill="#9ca3af"/>
+<rect x="320.2" y="137.2" width="20.5" height="172.8" rx="3" fill="#0f766e"/>
+<text x="306.1" y="134.0" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >62.55</text>
+<text x="330.4" y="133.2" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >62.84</text>
+<text x="324.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >ROUGE-L</text>
+<rect x="359.8" y="306.8" width="20.5" height="3.2" rx="3" fill="#9ca3af"/>
+<rect x="384.2" y="307.1" width="20.5" height="2.9" rx="3" fill="#0f766e"/>
+<text x="370.1" y="302.8" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >1.17</text>
+<text x="394.4" y="303.1" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >1.0428</text>
+<text x="388.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >CIDEr</text>
+<rect x="460" y="46" width="420" height="280" rx="8" fill="#ffffff" stroke="#d8ded9"/>
+<text x="476.0" y="72.0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#172026" text-anchor="start" >GPT-2 Medium</text>
+<rect x="543.8" y="126.2" width="20.5" height="183.8" rx="3" fill="#9ca3af"/>
+<rect x="568.2" y="165.4" width="20.5" height="144.6" rx="3" fill="#0f766e"/>
+<text x="554.1" y="122.2" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >68.2</text>
+<text x="578.4" y="161.4" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >53.68</text>
+<text x="572.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >BLEU</text>
+<rect x="607.8" y="286.8" width="20.5" height="23.2" rx="3" fill="#9ca3af"/>
+<rect x="632.2" y="293.7" width="20.5" height="16.3" rx="3" fill="#0f766e"/>
+<text x="618.1" y="282.8" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >8.62</text>
+<text x="642.4" y="289.7" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >6.0468</text>
+<text x="636.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >NIST</text>
+<rect x="671.8" y="185.5" width="20.5" height="124.5" rx="3" fill="#9ca3af"/>
+<rect x="696.2" y="134.4" width="20.5" height="175.6" rx="3" fill="#0f766e"/>
+<text x="682.1" y="181.5" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >46.2</text>
+<text x="706.4" y="130.4" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >65.18</text>
+<text x="700.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >METEOR</text>
+<rect x="735.8" y="118.7" width="20.5" height="191.3" rx="3" fill="#9ca3af"/>
+<rect x="760.2" y="139.4" width="20.5" height="170.6" rx="3" fill="#0f766e"/>
+<text x="746.1" y="114.7" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >71</text>
+<text x="770.4" y="135.4" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >63.33</text>
+<text x="764.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >ROUGE-L</text>
+<rect x="799.8" y="306.7" width="20.5" height="3.3" rx="3" fill="#9ca3af"/>
+<rect x="824.2" y="307.0" width="20.5" height="3.0" rx="3" fill="#0f766e"/>
+<text x="810.1" y="302.7" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#65737e" text-anchor="middle" >1.2261</text>
+<text x="834.4" y="303.0" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="600" fill="#0f766e" text-anchor="middle" >1.097</text>
+<text x="828.0" y="326.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#172026" text-anchor="middle" >CIDEr</text>
+<rect x="700" y="40" width="12" height="12" rx="2" fill="#9ca3af"/>
+<text x="716.0" y="51.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600" fill="#172026" text-anchor="start" >FFT</text>
+<rect x="750" y="40" width="12" height="12" rx="2" fill="#0f766e"/>
+<text x="766.0" y="51.0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600" fill="#172026" text-anchor="start" >LoRA</text>
+</svg>

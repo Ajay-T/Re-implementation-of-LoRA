@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="622" viewBox="0 0 740 622">
+<rect x="0.0" y="0.0" width="740.0" height="622.0" rx="0" fill="#ffffff" stroke="none"/>
+<text x="40.0" y="42.0" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="850" fill="#172026" text-anchor="start">Results Summary: Paper vs. Our Re-implementation</text>
+<rect x="40.0" y="70.0" width="660.0" height="44.0" rx="6" fill="#0f766e" stroke="none"/>
+<text x="50.0" y="98.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">Model / Dataset</text>
+<text x="270.0" y="98.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">Metric</text>
+<text x="350.0" y="98.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">Paper (FFT)</text>
+<text x="440.0" y="98.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">Ours (FFT)</text>
+<text x="530.0" y="98.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">Paper (LoRA)</text>
+<text x="620.0" y="98.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">Ours (LoRA)</text>
+<rect x="40.0" y="114.0" width="660.0" height="36.0" rx="0" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="150" x2="700" y2="150" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="138.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">ViT / CIFAR-10</text>
+<text x="270.0" y="138.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">Accuracy</text>
+<text x="350.0" y="138.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="440.0" y="138.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">98.68</text>
+<text x="530.0" y="138.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="620.0" y="138.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">98.30</text>
+<rect x="40.0" y="150.0" width="660.0" height="36.0" rx="0" fill="#ffffff" stroke="none"/>
+<line x1="40" y1="186" x2="700" y2="186" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="174.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">RoBERTa / SST-2</text>
+<text x="270.0" y="174.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">Accuracy</text>
+<text x="350.0" y="174.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">94.8</text>
+<text x="440.0" y="174.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">93.9</text>
+<text x="530.0" y="174.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">95.1</text>
+<text x="620.0" y="174.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">94.0</text>
+<rect x="40.0" y="186.0" width="660.0" height="36.0" rx="0" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="222" x2="700" y2="222" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="210.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">RoBERTa / MNLI</text>
+<text x="270.0" y="210.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">Accuracy</text>
+<text x="350.0" y="210.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">87.6</text>
+<text x="440.0" y="210.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">87.65</text>
+<text x="530.0" y="210.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">87.5</text>
+<text x="620.0" y="210.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">85.9</text>
+<rect x="40.0" y="222.0" width="660.0" height="36.0" rx="0" fill="#ffffff" stroke="none"/>
+<line x1="40" y1="258" x2="700" y2="258" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="246.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Small / E2E</text>
+<text x="270.0" y="246.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">BLEU</text>
+<text x="350.0" y="246.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">53.68</text>
+<text x="440.0" y="246.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">53.68</text>
+<text x="530.0" y="246.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="620.0" y="246.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">52.98</text>
+<rect x="40.0" y="258.0" width="660.0" height="36.0" rx="0" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="294" x2="700" y2="294" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="282.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Small / E2E</text>
+<text x="270.0" y="282.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">NIST</text>
+<text x="350.0" y="282.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">6.0225</text>
+<text x="440.0" y="282.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">6.0225</text>
+<text x="530.0" y="282.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="620.0" y="282.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">3.1081</text>
+<rect x="40.0" y="294.0" width="660.0" height="36.0" rx="0" fill="#ffffff" stroke="none"/>
+<line x1="40" y1="330" x2="700" y2="330" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="318.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Small / E2E</text>
+<text x="270.0" y="318.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">METEOR</text>
+<text x="350.0" y="318.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">69.58</text>
+<text x="440.0" y="318.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">69.58</text>
+<text x="530.0" y="318.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="620.0" y="318.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">48.99</text>
+<rect x="40.0" y="330.0" width="660.0" height="36.0" rx="0" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="366" x2="700" y2="366" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="354.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Small / E2E</text>
+<text x="270.0" y="354.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">ROUGE-L</text>
+<text x="350.0" y="354.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">62.55</text>
+<text x="440.0" y="354.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">62.55</text>
+<text x="530.0" y="354.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="620.0" y="354.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">62.84</text>
+<rect x="40.0" y="366.0" width="660.0" height="36.0" rx="0" fill="#ffffff" stroke="none"/>
+<line x1="40" y1="402" x2="700" y2="402" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="390.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Small / E2E</text>
+<text x="270.0" y="390.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">CIDEr</text>
+<text x="350.0" y="390.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">1.17</text>
+<text x="440.0" y="390.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">1.17</text>
+<text x="530.0" y="390.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="620.0" y="390.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">1.0428</text>
+<rect x="40.0" y="402.0" width="660.0" height="36.0" rx="0" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="438" x2="700" y2="438" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="426.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Medium / E2E</text>
+<text x="270.0" y="426.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">BLEU</text>
+<text x="350.0" y="426.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">68.2</text>
+<text x="440.0" y="426.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="530.0" y="426.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">54.11</text>
+<text x="620.0" y="426.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">53.68</text>
+<rect x="40.0" y="438.0" width="660.0" height="36.0" rx="0" fill="#ffffff" stroke="none"/>
+<line x1="40" y1="474" x2="700" y2="474" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="462.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Medium / E2E</text>
+<text x="270.0" y="462.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">NIST</text>
+<text x="350.0" y="462.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">8.62</text>
+<text x="440.0" y="462.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="530.0" y="462.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">6.0225</text>
+<text x="620.0" y="462.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">6.0468</text>
+<rect x="40.0" y="474.0" width="660.0" height="36.0" rx="0" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="510" x2="700" y2="510" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="498.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Medium / E2E</text>
+<text x="270.0" y="498.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">METEOR</text>
+<text x="350.0" y="498.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">46.2</text>
+<text x="440.0" y="498.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="530.0" y="498.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">69.1</text>
+<text x="620.0" y="498.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">65.18</text>
+<rect x="40.0" y="510.0" width="660.0" height="36.0" rx="0" fill="#ffffff" stroke="none"/>
+<line x1="40" y1="546" x2="700" y2="546" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="534.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Medium / E2E</text>
+<text x="270.0" y="534.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">ROUGE-L</text>
+<text x="350.0" y="534.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">71.0</text>
+<text x="440.0" y="534.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="530.0" y="534.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">62.03</text>
+<text x="620.0" y="534.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">63.33</text>
+<rect x="40.0" y="546.0" width="660.0" height="36.0" rx="6" fill="#f0fdf4" stroke="none"/>
+<line x1="40" y1="582" x2="700" y2="582" stroke="#d1d5db" stroke-width="0.5"/>
+<text x="50.0" y="570.0" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#172026" text-anchor="start">GPT-2 Medium / E2E</text>
+<text x="270.0" y="570.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">CIDEr</text>
+<text x="350.0" y="570.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">2.47</text>
+<text x="440.0" y="570.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">—</text>
+<text x="530.0" y="570.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">1.2261</text>
+<text x="620.0" y="570.0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" fill="#172026" text-anchor="start">1.097</text>
+<rect x="40.0" y="70.0" width="660.0" height="512.0" rx="6" fill="none" stroke="#d1d5db"/>
+</svg>

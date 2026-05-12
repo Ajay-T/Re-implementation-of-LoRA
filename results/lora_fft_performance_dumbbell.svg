@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1950" viewBox="0 0 1120 1950">
+<rect x="0.0" y="0.0" width="1120.0" height="1950.0" rx="0.0" fill="#fbfbf8" stroke="none"/>
+<text x="80.0" y="78.0" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="850" fill="#172026" text-anchor="start" >Task Performance: FFT vs. LoRA</text>
+<circle cx="805.0" cy="70.0" r="10" fill="#6b7280"/>
+<text x="825.0" y="76.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#172026" text-anchor="start" >FFT</text>
+<circle cx="1015.0" cy="70.0" r="10" fill="#0f766e"/>
+<text x="1035.0" y="76.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#172026" text-anchor="start" >LoRA</text>
+<rect x="70.0" y="130.0" width="980.0" height="555.0" rx="12.0" fill="#ffffff" stroke="#d8ded9"/>
+<text x="104.0" y="184.0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="850" fill="#172026" text-anchor="start" >Classification Accuracy</text>
+<line x1="413.4" y1="262.0" x2="413.4" y2="631.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="413.4" y="248.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#65737e" text-anchor="middle" >85%</text>
+<line x1="555.6" y1="262.0" x2="555.6" y2="631.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="555.6" y="248.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#65737e" text-anchor="middle" >90%</text>
+<line x1="697.8" y1="262.0" x2="697.8" y2="631.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="697.8" y="248.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#65737e" text-anchor="middle" >95%</text>
+<line x1="840.0" y1="262.0" x2="840.0" y2="631.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="840.0" y="248.0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#65737e" text-anchor="middle" >100%</text>
+<text x="114.0" y="322.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#172026" text-anchor="start" >SST-2</text>
+<text x="272.0" y="322.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#65737e" text-anchor="start" >Paper</text>
+<line x1="385.0" y1="314.0" x2="840.0" y2="314.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="692.1" y1="314.0" x2="700.7" y2="314.0" stroke="#cbd5d1" stroke-width="8" stroke-linecap="round"/>
+<circle cx="692.1" cy="314.0" r="14" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="700.7" cy="314.0" r="14" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="868.0" y="322.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#172026" text-anchor="start" >94.8% -&gt; 95.1%</text>
+<text x="114.0" y="400.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#172026" text-anchor="start" >SST-2</text>
+<text x="272.0" y="400.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f766e" text-anchor="start" >Ours</text>
+<line x1="385.0" y1="392.0" x2="840.0" y2="392.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="666.5" y1="392.0" x2="669.4" y2="392.0" stroke="#cbd5d1" stroke-width="8" stroke-linecap="round"/>
+<circle cx="666.5" cy="392.0" r="14" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="669.4" cy="392.0" r="14" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="868.0" y="400.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#172026" text-anchor="start" >93.9% -&gt; 94.0%</text>
+<text x="114.0" y="478.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#172026" text-anchor="start" >MNLI</text>
+<text x="272.0" y="478.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#65737e" text-anchor="start" >Paper</text>
+<line x1="385.0" y1="470.0" x2="840.0" y2="470.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="484.5" y1="470.0" x2="487.4" y2="470.0" stroke="#cbd5d1" stroke-width="8" stroke-linecap="round"/>
+<circle cx="487.4" cy="470.0" r="14" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="484.5" cy="470.0" r="14" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="868.0" y="478.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#172026" text-anchor="start" >87.6% -&gt; 87.5%</text>
+<text x="114.0" y="556.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#172026" text-anchor="start" >MNLI</text>
+<text x="272.0" y="556.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f766e" text-anchor="start" >Ours</text>
+<line x1="385.0" y1="548.0" x2="840.0" y2="548.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="439.0" y1="548.0" x2="488.8" y2="548.0" stroke="#cbd5d1" stroke-width="8" stroke-linecap="round"/>
+<circle cx="488.8" cy="548.0" r="14" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="439.0" cy="548.0" r="14" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="868.0" y="556.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#172026" text-anchor="start" >87.7% -&gt; 85.9%</text>
+<text x="114.0" y="634.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#172026" text-anchor="start" >CIFAR-10</text>
+<text x="272.0" y="634.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f766e" text-anchor="start" >Ours</text>
+<line x1="385.0" y1="626.0" x2="840.0" y2="626.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="791.7" y1="626.0" x2="802.5" y2="626.0" stroke="#cbd5d1" stroke-width="8" stroke-linecap="round"/>
+<circle cx="802.5" cy="626.0" r="14" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="791.7" cy="626.0" r="14" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="868.0" y="634.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#172026" text-anchor="start" >98.7% -&gt; 98.3%</text>
+<rect x="70.0" y="745.0" width="980.0" height="530.0" rx="12.0" fill="#ffffff" stroke="#d8ded9"/>
+<text x="104.0" y="799.0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="850" fill="#172026" text-anchor="start" >GPT-2 Small</text>
+<line x1="218.0" y1="851.0" x2="218.0" y2="1255.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="218.0" y="837.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >0</text>
+<line x1="413.7" y1="851.0" x2="413.7" y2="1255.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="413.7" y="837.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >25</text>
+<line x1="609.3" y1="851.0" x2="609.3" y2="1255.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="609.3" y="837.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >50</text>
+<line x1="805.0" y1="851.0" x2="805.0" y2="1255.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="805.0" y="837.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >75</text>
+<text x="114.0" y="893.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >BLEU</text>
+<line x1="218.0" y1="885.0" x2="805.0" y2="885.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="632.7" y1="885.0" x2="638.1" y2="885.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="638.1" cy="885.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="632.7" cy="885.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="892.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >53.68 -&gt; 52.98</text>
+<text x="114.0" y="977.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >NIST</text>
+<line x1="218.0" y1="969.0" x2="805.0" y2="969.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="242.3" y1="969.0" x2="265.1" y2="969.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="265.1" cy="969.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="242.3" cy="969.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="976.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >6.0225 -&gt; 3.1081</text>
+<text x="114.0" y="1061.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >METEOR</text>
+<line x1="218.0" y1="1053.0" x2="805.0" y2="1053.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="601.4" y1="1053.0" x2="762.6" y2="1053.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="762.6" cy="1053.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="601.4" cy="1053.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1060.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >69.58 -&gt; 48.99</text>
+<text x="114.0" y="1145.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >ROUGE-L</text>
+<line x1="218.0" y1="1137.0" x2="805.0" y2="1137.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="707.6" y1="1137.0" x2="709.8" y2="1137.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="707.6" cy="1137.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="709.8" cy="1137.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1144.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >62.55 -&gt; 62.84</text>
+<text x="114.0" y="1229.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >CIDEr</text>
+<line x1="218.0" y1="1221.0" x2="805.0" y2="1221.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="226.2" y1="1221.0" x2="227.2" y2="1221.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="227.2" cy="1221.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="226.2" cy="1221.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1228.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >1.17 -&gt; 1.0428</text>
+<rect x="70.0" y="1335.0" width="980.0" height="530.0" rx="12.0" fill="#ffffff" stroke="#d8ded9"/>
+<text x="104.0" y="1389.0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="850" fill="#172026" text-anchor="start" >GPT-2 Medium</text>
+<line x1="218.0" y1="1441.0" x2="218.0" y2="1845.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="218.0" y="1427.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >0</text>
+<line x1="413.7" y1="1441.0" x2="413.7" y2="1845.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="413.7" y="1427.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >25</text>
+<line x1="609.3" y1="1441.0" x2="609.3" y2="1845.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="609.3" y="1427.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >50</text>
+<line x1="805.0" y1="1441.0" x2="805.0" y2="1845.0" stroke="#d9dfdc" stroke-width="1"/>
+<text x="805.0" y="1427.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#65737e" text-anchor="middle" >75</text>
+<text x="114.0" y="1483.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >BLEU</text>
+<line x1="218.0" y1="1475.0" x2="805.0" y2="1475.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="638.1" y1="1475.0" x2="751.8" y2="1475.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="751.8" cy="1475.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="638.1" cy="1475.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1482.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >68.2 -&gt; 53.68</text>
+<text x="114.0" y="1567.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >NIST</text>
+<line x1="218.0" y1="1559.0" x2="805.0" y2="1559.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="265.3" y1="1559.0" x2="285.5" y2="1559.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="285.5" cy="1559.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="265.3" cy="1559.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1566.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >8.62 -&gt; 6.0468</text>
+<text x="114.0" y="1651.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >METEOR</text>
+<line x1="218.0" y1="1643.0" x2="805.0" y2="1643.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="579.6" y1="1643.0" x2="728.1" y2="1643.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="579.6" cy="1643.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="728.1" cy="1643.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1650.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >46.2 -&gt; 65.18</text>
+<text x="114.0" y="1735.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >ROUGE-L</text>
+<line x1="218.0" y1="1727.0" x2="805.0" y2="1727.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="713.7" y1="1727.0" x2="773.7" y2="1727.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="773.7" cy="1727.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="713.7" cy="1727.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1734.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >71 -&gt; 63.33</text>
+<text x="114.0" y="1819.0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#172026" text-anchor="start" >CIDEr</text>
+<line x1="218.0" y1="1811.0" x2="805.0" y2="1811.0" stroke="#d9dfdc" stroke-width="1"/>
+<line x1="226.6" y1="1811.0" x2="227.6" y2="1811.0" stroke="#cbd5d1" stroke-width="7" stroke-linecap="round"/>
+<circle cx="227.6" cy="1811.0" r="12" fill="#6b7280" stroke="#ffffff" stroke-width="4"/>
+<circle cx="226.6" cy="1811.0" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="4"/>
+<text x="827.0" y="1818.0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#172026" text-anchor="start" >1.2261 -&gt; 1.097</text>
+</svg>
