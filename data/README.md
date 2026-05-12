@@ -6,6 +6,7 @@ This data/ directory contains dataset utilities used for training and evaluation
 ## What is included
 
 - `glue.py`: helper code to download, tokenize, and prepare GLUE task datasets with the Hugging Face `datasets` library.
+- `e2e.py`: helper code to download and prepare E2E dataset for text generation from Github
 - `vision.py`: helper code to download and prepare vision datasets (CIFAR-10, CIFAR-100) via `torchvision.datasets`.
 
 ## Dataset sources
