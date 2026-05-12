@@ -32,9 +32,9 @@ As an independent extension, we also tested LoRA on **ViT-B/16 for CIFAR-10 clas
 │   └── gpt2_lora.py        # GPT-2 LoRA fine-tuning on E2E
 ├── data/                   # Dataset loading utilities (GLUE, E2E, CIFAR)
 ├── results/                # Generated figures and result visualizations
+│   └── scripts/            # Scripts to regenerate result figures
 ├── poster/                 # Academic poster PDF
 ├── report/                 # 2-page project summary report
-├── scripts/                # Scripts to regenerate result figures
 ├── requirements.txt        # Python dependencies
 └── LICENSE                 # MIT License
 ```
@@ -99,12 +99,12 @@ python gpt2_fft.py     # Full fine-tuning
 
 **5. Regenerate result figures:**
 ```bash
-python scripts/generate_results_graphic.py
-python scripts/generate_performance_graphic.py
-python scripts/generate_summary_table.py
-python scripts/generate_efficiency_scatter.py
-python scripts/generate_param_reduction.py
-python scripts/generate_nlg_metrics.py
+python results/scripts/generate_results_graphic.py
+python results/scripts/generate_performance_graphic.py
+python results/scripts/generate_summary_table.py
+python results/scripts/generate_efficiency_scatter.py
+python results/scripts/generate_param_reduction.py
+python results/scripts/generate_nlg_metrics.py
 ```
 
 **Compute Requirements:** All experiments were run on Google Colab with T4 or A100 GPUs. RoBERTa and ViT experiments complete in under an hour; GPT-2 Medium FFT requires ~2 hours on a T4.
