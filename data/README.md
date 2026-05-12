@@ -1,6 +1,7 @@
 # Data Directory
 
-This `data/` directory contains the dataset utilities used for training and evaluation in this repository.
+This data/ directory contains dataset utilities used for training and evaluation in this repository. It supports both GLUE benchmark tasks (classification/regression) and the E2E dataset (data-to-text generation).
+
 
 ## What is included
 
@@ -9,9 +10,9 @@ This `data/` directory contains the dataset utilities used for training and eval
 
 ## Dataset sources
 
-### NLP (GLUE)
+## GLUE Benchmarks (Classification)
 
-The project uses GLUE benchmarks via `datasets.load_dataset("glue", task_name)`.
+The project uses GLUE benchmarks from the HuggingFace Datasets library for classification via `datasets.load_dataset("glue", task_name)`.
 
 Supported tasks in this implementation include:
 
@@ -23,6 +24,16 @@ Supported tasks in this implementation include:
 - `qqp`
 - `rte`
 - `stsb`
+
+## E2E Dataset (Natural Language Generation)
+We used the E2E dataset for our NLG tasks. You can find the dataset at this repository: https://github.com/tuetschek/e2e-dataset
+
+In our implementation, dataset is automatically downloaded at runtime from raw CSV files hosted on GitHub:
+- Train: https://raw.githubusercontent.com/tuetschek/e2e-dataset/master/trainset.csv
+- Validation: https://raw.githubusercontent.com/tuetschek/e2e-dataset/master/devset.csv
+- Test: https://raw.githubusercontent.com/tuetschek/e2e-dataset/master/testset_w_refs.csv
+
+We fetch it via `urllib.request.urlopen(url)`, parse it with Pandas, and convert it to a HuggingFace Dataset object. The dataset is combined into a DatasetDict with train/validation/test splits.
 
 ### Vision (CIFAR)
 
