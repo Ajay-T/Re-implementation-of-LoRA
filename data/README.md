@@ -5,15 +5,18 @@ This `data/` directory contains the dataset utilities used for training and eval
 ## What is included
 
 - `glue.py`: helper code to download, tokenize, and prepare GLUE task datasets with the Hugging Face `datasets` library.
+- `vision.py`: helper code to download and prepare vision datasets (CIFAR-10, CIFAR-100) via `torchvision.datasets`.
 
-## Dataset source
+## Dataset sources
+
+### NLP (GLUE)
 
 The project uses GLUE benchmarks via `datasets.load_dataset("glue", task_name)`.
 
 Supported tasks in this implementation include:
 
-- `mnli`
 - `sst2`
+- `mnli`
 - `mrpc`
 - `cola`
 - `qnli`
@@ -21,12 +24,20 @@ Supported tasks in this implementation include:
 - `rte`
 - `stsb`
 
-## How to obtain the dataset
+### Vision (CIFAR)
 
-The dataset is automatically downloaded from Hugging Face when the code runs and `load_glue_dataset` is called.
+The ViT experiments use CIFAR-10 (and optionally CIFAR-100) via `torchvision.datasets`. Supported datasets:
 
-If you need to reproduce the environment, run the training code in a Colab session or local environment. The dataset is fetched dynamically and does not need to be checked in.
+- `cifar10`
+- `cifar100`
+
+## How to obtain the datasets
+
+All datasets are automatically downloaded when the training code runs. No manual download is required.
+
+- GLUE datasets are fetched from Hugging Face when `load_glue_dataset` is called.
+- CIFAR datasets are fetched from torchvision when `load_vision_dataset` is called. They are cached locally in a `data_cache/` directory.
 
 ## Colab training note
 
-The models for this project were pulled and trained during a Colab session. This README documents the data preparation process and confirms that the dataset is obtained automatically from Hugging Face when the code runs.
+The models for this project were trained in Google Colab sessions. The datasets are obtained automatically and do not need to be checked in.
